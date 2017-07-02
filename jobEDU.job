@@ -1,0 +1,13 @@
+#!/bin/bash
+# This script runs Eduardo's experiments
+
+#PBS -S /bin/bash
+#PBS -l walltime=24:00:00
+#PBS -l nodes=1:ppn=1
+
+module load matlab
+cd $PBS_O_WORKDIR
+
+echo ${code}
+
+matlab -nojvm -nodisplay < ${code}

@@ -1,0 +1,33 @@
+ Running PBS prologue script on green0443
+
+ ===============================================================================
+ Job started on Sun Jul  2 01:23:22 BST 2017
+
+ JOB ID: 4315393.blue101
+ JOB NAME: jobEDU.job
+ Num Hosts: 1
+ Num Tasks: 1
+ Nodes used: 
+ green0443
+ ===============================================================================
+ Job Output Follows:
+ ===============================================================================
+
+ts_3.m
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> 
+ ===============================================================================
+ Job finished at Sun Jul  2 01:31:52 BST 2017
+
+
+Requested resource limits are neednodes=1:ppn=1,nodes=1:ppn=1,pmem=4000mb,walltime=24:00:00
+Used resource limits are cput=00:08:12,mem=133468kb,vmem=863552kb,walltime=00:08:30

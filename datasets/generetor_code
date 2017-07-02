@@ -1,0 +1,17 @@
+
+from sklearn.datasets.samples_generator import make_blobs
+import numpy as np
+X, y = make_blobs(n_samples=1500, centers=3, n_features=2, cluster_std = 1.0, random_state=0)
+np.savetxt('/home/eduardo/artset3.dat', X,fmt='%.6f')
+
+
+from sklearn.datasets.samples_generator import make_blobs
+import numpy as np
+X, y = make_blobs(n_samples=1750, centers=4, n_features=3, cluster_std = 2.0, random_state=0)
+np.savetxt('/home/eduardo/artset4.dat', X,fmt='%.6f')
+
+
+from sklearn.datasets.samples_generator import make_blobs
+import numpy as np
+X, y = make_blobs(n_samples=2000, centers=5, n_features=4, cluster_std = 3.0, random_state=0)
+np.savetxt('/home/eduardo/artset5.dat', X,fmt='%.6f')

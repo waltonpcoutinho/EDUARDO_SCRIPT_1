@@ -1,0 +1,19 @@
+#!/bin/bash
+
+## declare an array variable
+declare -a alg=("ga" "pso" "cg" "ts")
+declare -a maxID=(14 11 6 6)
+
+## now loop through the above array
+for i in `seq 0 3`
+do
+   for j in `seq 1 ${maxID[i]}`
+   do
+      qsub -v code=${alg[i]}_$j.m jobEDU.job
+   done
+done
+
+
+
+
+
